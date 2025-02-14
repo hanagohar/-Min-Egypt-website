@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <meta charset="UTF-8">
+        <meta http-equive="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Min Egypt</title>
+        <link rel="stylesheet" href="question.css">
+        <link rel="shortcut icon" href="./images/egypt.png" type="image/sug+xml">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><img src="./images/made.jpg">
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="logo">
+                <img src="./images/made.jpg">
+            </div>
+            <ul>
+                <li><a href="interface.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="team.html">Our team</a></li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div> </div>
+            <div> </div>
+            <div> </div>
+        </label>
+    </header>
+
+
+    <section>
+        <center>
+            <h2>Ask a question </h2><br>
+        </center>
+        <div class="faq">
+            <div class="question">
+              <h3>Q: What The purpose of creating this page</h3>
+            </div>
+            <div class="answer">
+              <p>A:To support Egyptian products, which increases sales and reduces youth unemployment</p>
+            </div>
+            
+            <div class="question">
+              <h3>Q: What products do you offerd?</h3>
+            </div>
+            <div class="answer">
+              <p>A: We offer a wide range of egyption product and  egyption company such as
+                 skin care,makeup,gaswarry , cleaners</p>
+            </div>
+            <div class="question">
+                <h3> Q: What is your return policy?</h3>
+              </div>
+              <div class="answer">
+                <p>A: We accept returns within 30 days of purchase.
+                     Items must be in unused condition with tags attached.
+                      Visit our Returns page for detailed instructions.
+                   </p>
+                
+                   
+              </div>
+              <div class="question">
+                <h3>Q: How easy is it to register?</h3>
+              </div>
+              <div class="answer">
+                <p>A: its easy to register this page ,
+                    you should enter your Name and your password
+                    , then click the login
+                    ,finally, your ar login
+                   </p>
+                </div>
+                <div class="question">
+                    <h3>Q: How easy is it to sign up?</h3>
+                  </div>
+                  <div class="answer">
+                    <p>A: its easy to sign up this page ,
+                        you should enter your Name and your password
+                        , enter your e-mail
+                        ,finally, your ar sign up
+                       </p>
+                    </div>
+        </div>
+    </section>
+
+    <script>
+            
+        const questions = document.querySelectorAll('.question');
+      
+        questions.forEach(question => {
+          question.addEventListener('click', () => {
+            question.classList.toggle('active');
+          });
+        });
+      
+          </script>
+</body>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="team.html">Our team</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get help</h4>
+                <ul>
+                    <li><a href="privacy policy.html">privacy policy</a></li>
+                    <li><a href="feedback.html">Feed Back</a></li>
+                    <li><a href="question.html">Ask qeustion</a></li>
+
+                </ul>
+            </div>
+            <!-- <div class="footer-col">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">skin care</a></li>
+                    <li><a href="#">sankes</a></li>
+                    <li><a href="#">devices</a></li>
+                    <li><a href="#">resturant</a></li>
+                </ul>
+            </div> -->
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/groups/6699180616874641/?ref=share"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/min_egypt?s=21"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/min_egypt?igsh=NGVhN2U2NjQ0Yg=="><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
